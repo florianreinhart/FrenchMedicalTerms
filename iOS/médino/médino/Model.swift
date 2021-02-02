@@ -1,6 +1,6 @@
 //
 //  Model.swift
-//  Medical Terms
+//  médino
 //
 //  Created by Florian Reinhart on 14.05.18.
 //

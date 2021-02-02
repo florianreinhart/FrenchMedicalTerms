@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C7D3F3220A989830024AF03 /* Medical Terms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medical Terms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7D3F3220A989830024AF03 /* médino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "médino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7D3F3520A989830024AF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C7D3F3A20A989830024AF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C7D3F3C20A989840024AF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		5C7D3F2920A989830024AF03 = {
 			isa = PBXGroup;
 			children = (
-				5C7D3F3420A989830024AF03 /* Medical Terms */,
+				5C7D3F3420A989830024AF03 /* médino */,
 				5C7D3F3320A989830024AF03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		5C7D3F3320A989830024AF03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C7D3F3220A989830024AF03 /* Medical Terms.app */,
+				5C7D3F3220A989830024AF03 /* médino.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C7D3F3420A989830024AF03 /* Medical Terms */ = {
+		5C7D3F3420A989830024AF03 /* médino */ = {
 			isa = PBXGroup;
 			children = (
 				5C7D3F3520A989830024AF03 /* AppDelegate.swift */,
@@ -70,15 +70,16 @@
 				5C7D3F4920A98B4F0024AF03 /* MedicalTerms.json */,
 				5C7D3F4120A989840024AF03 /* Info.plist */,
 			);
-			path = "Medical Terms";
+			name = "médino";
+			path = "médino";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C7D3F3120A989830024AF03 /* Medical Terms */ = {
+		5C7D3F3120A989830024AF03 /* médino */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C7D3F4420A989840024AF03 /* Build configuration list for PBXNativeTarget "Medical Terms" */;
+			buildConfigurationList = 5C7D3F4420A989840024AF03 /* Build configuration list for PBXNativeTarget "médino" */;
 			buildPhases = (
 				5C7D3F2E20A989830024AF03 /* Sources */,
 				5C7D3F2F20A989830024AF03 /* Frameworks */,
@@ -88,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = "Medical Terms";
+			name = "médino";
 			productName = "Medical Terms";
-			productReference = 5C7D3F3220A989830024AF03 /* Medical Terms.app */;
+			productReference = 5C7D3F3220A989830024AF03 /* médino.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,10 +106,11 @@
 				TargetAttributes = {
 					5C7D3F3120A989830024AF03 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
-			buildConfigurationList = 5C7D3F2D20A989830024AF03 /* Build configuration list for PBXProject "Medical Terms" */;
+			buildConfigurationList = 5C7D3F2D20A989830024AF03 /* Build configuration list for PBXProject "médino" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C7D3F3120A989830024AF03 /* Medical Terms */,
+				5C7D3F3120A989830024AF03 /* médino */,
 			);
 		};
 /* End PBXProject section */
@@ -225,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -279,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -294,14 +296,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EU38S8HXTE;
-				INFOPLIST_FILE = "Medical Terms/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/médino/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.bottledsoftware.Medical-Terms";
+				PRODUCT_BUNDLE_IDENTIFIER = de.bottledsoftware.medino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -312,14 +314,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EU38S8HXTE;
-				INFOPLIST_FILE = "Medical Terms/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/médino/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.bottledsoftware.Medical-Terms";
+				PRODUCT_BUNDLE_IDENTIFIER = de.bottledsoftware.medino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -327,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C7D3F2D20A989830024AF03 /* Build configuration list for PBXProject "Medical Terms" */ = {
+		5C7D3F2D20A989830024AF03 /* Build configuration list for PBXProject "médino" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C7D3F4220A989840024AF03 /* Debug */,
@@ -336,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C7D3F4420A989840024AF03 /* Build configuration list for PBXNativeTarget "Medical Terms" */ = {
+		5C7D3F4420A989840024AF03 /* Build configuration list for PBXNativeTarget "médino" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C7D3F4520A989840024AF03 /* Debug */,
